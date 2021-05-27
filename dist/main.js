@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("alert(\"Hello pip\");\n\n//# sourceURL=webpack://jollibee/./src/index.js?");
+eval("\n\n//# sourceURL=webpack://jollibee/./src/index.js?");
 
 /***/ })
 
