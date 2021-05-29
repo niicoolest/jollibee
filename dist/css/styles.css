@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/jollibee-background.png");
     height: 98vh;
-    width: vw;
+    font-family : 'Yusei Magic', sans-serif;
 }
 
 #navigation {
@@ -30,7 +30,6 @@ body {
 }
 
 #container {
-    height: 83vh;
     width: 60vw;
     margin: auto;
     margin-top: 10vh;
@@ -80,11 +79,51 @@ body {
     margin-left: 5%;
     width: 90%;
     margin-top: 2vh;
-    background-color: white;
+    background-color: red;
     color: black;
     flex: 1;
 }
 
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-row-direction {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    flex: 50%;
+}
+
+.home-body-text {
+    background-color: white;
+    font-size: 4vmin;
+    margin: 3vmin;
+    padding: 2vmax;
+    border: solid;
+    border-radius: 25px;
+}
+
 #title {
     font-size: 8vmin;
+}
+
+#jollibee-pic {
+    max-height: 55vh;
+}
+
+.menu-pic {
+    width: 40vmin;
+    height: 40vmin;
+    background-color: red;
+    margin: 2vmin;
+}
+
+.pic-description {
+    height: 40vmin;
+    background-color: red;
 }
