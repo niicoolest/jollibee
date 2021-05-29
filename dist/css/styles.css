@@ -1,0 +1,134 @@
+body {
+    background-image: url("../images/jollibee-background.png");
+    height: 98vh;
+    font-family : 'Yusei Magic', sans-serif;
+}
+
+#navigation {
+    position: fixed;
+    height: 7vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    position: fixed;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFC60B;
+    color: white;
+    text-align: center;
+    color: black;
+    opacity: 70%;
+    padding-top: 5px;
+}
+
+#container {
+    width: 60vw;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: red;
+    border-radius: 35px;
+    opacity: 80%;
+} 
+
+#home, #contact, #menu {
+    display: inline;
+    font-size: 1.5vmax;
+    display: inline-block;
+    align-self: flex-end;
+    margin: 1vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: solid;
+    border-bottom: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    background-color: white;
+}
+
+.chosen {
+    color: black;
+    background-color: #FFC60B !important;
+    border: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#jollibee-name {
+    text-align: center;
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 2vh;
+    background-color: white;
+    color: black;
+    border-radius: 25%;
+    border: solid;
+    background-color: #FFC60B;
+}
+
+.home-body {
+    text-align: center;
+    display: inline-block;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 2vh;
+    background-color: red;
+    color: black;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-row-direction {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    flex: 50%;
+}
+
+.home-body-text {
+    background-color: #FFC60B;
+    font-size: 4vmin;
+    margin: 3vmin;
+    padding: 2vmax;
+    border: solid;
+    border-radius: 25px;
+}
+
+#title {
+    font-size: 8vmin;
+}
+
+#jollibee-pic {
+    max-height: 55vh;
+}
+
+.menu-pic {
+    width: 40vmin;
+    height: 40vmin;
+    background-color: red;
+    margin: 2vmin;
+}
+
+.pic-description {
+    height: 40vmin;
+    background-color: red;
+}
