@@ -1,6 +1,6 @@
 <h1>Project Restaurant Page : Jollibee 🐔</h1>
 <h3>Entry to TOP's restaurant page exercise</h3>
-<h4>Live preview can be found <a href="https://fatrixienicolieopetina.github.io/jollibee/">here</a></h4>
+<h4>Live preview can be found <a href="https://niicoolest.github.io/jollibee/">here</a></h4>
 
 <h2>WIL/Thoughts 🤔</h2>
 <p>
